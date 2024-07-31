@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.forestvibe.plants">
+   <children>
+      <ImageView fitHeight="750.0" fitWidth="1250.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@forests/f1.jpg" />
+         </image>
+      </ImageView>
+      <Pane opacity="0.73" prefHeight="93.0" prefWidth="1250.0" style="-fx-background-color: #164B60; -fx-border-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="68.0" fitWidth="68.0" layoutX="35.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@peacock2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn" layoutX="575.2" layoutY="31.2" mnemonicParsing="false" onAction="#switchtoscene1" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="HOME" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="575.0" AnchorPane.topAnchor="31.0">
+         <font>
+            <Font name="Poppins Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" mnemonicParsing="false" onAction="#switchtoscene2" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18; -fx-border-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="ABOUT" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="31.0">
+         <font>
+            <Font name="Poppins Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchtoscene3" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18px;" styleClass="menu1" stylesheets="@Style.css" text="FORESTS" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="825.0" AnchorPane.topAnchor="31.0">
+         <font>
+            <Font name="Poppins Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="Plants" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="950.0" AnchorPane.topAnchor="31.0">
+         <font>
+            <Font name="Poppins Bold" size="16.0" />
+         </font>
+      </Button>
+      <Pane layoutY="402.0" opacity="0.72" prefHeight="558.0" prefWidth="936.0" style="-fx-background-color: #0D191B;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="314.0" />
+      <Button fx:id="btn5" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#switchtoscene4" opacity="0.87" prefHeight="39.0" prefWidth="156.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="CONSERVATION" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="1050.0">
+         <font>
+            <Font name="Poppins Bold" size="16.0" />
+         </font>
+      </Button>
+      <Pane opacity="0.77" prefHeight="100.0" prefWidth="1250.0" style="-fx-background-color: #0D191B;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="94.0" />
+      <HBox layoutX="224.0" layoutY="94.0" prefHeight="100.0" prefWidth="1026.0" spacing="20.0" AnchorPane.bottomAnchor="556.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="94.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <Label fx:id="l1" onMouseClicked="#flower" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="    Flowers" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" onMouseClicked="#fruit" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="      Fruits" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" onMouseClicked="#medicine" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="   Medicines" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" onMouseClicked="#vegitables" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="   Vegitables" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="   Vegitables" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="   Vegitables" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ScrollPane fx:id="scroll" layoutX="200.0" layoutY="192.0" prefHeight="319.0" prefWidth="818.0" AnchorPane.bottomAnchor="238.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="193.0">
+         <content>
+            <HBox fx:id="plantlayout" prefHeight="306.0" prefWidth="934.0" spacing="20.0" style="-fx-background-color: #000000;">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+         </content>
+      </ScrollPane>
+      <TableView fx:id="table" prefHeight="238.0" prefWidth="818.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="c1" prefWidth="251.19997483491898" text="C1" />
+          <TableColumn fx:id="c2" prefWidth="566.4000549316406" text="C2" />
+        </columns>
+      </TableView>
+      <Pane layoutX="935.0" layoutY="194.0" prefHeight="558.0" prefWidth="431.0" style="-fx-background-color: #0D191B;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox layoutX="-3.0" layoutY="8.0" prefHeight="79.0" prefWidth="407.0" spacing="40.0" stylesheets="@Style.css">
+               <children>
+                  <TextField fx:id="search" onAction="#search" styleClass="search" stylesheets="@Style.css" />
+                  <Button mnemonicParsing="false" onAction="#search" style="-fx-background-radius: 25;" text="Search" textFill="#1b0505" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="25.0" right="10.0" top="20.0" />
+               </padding>
+            </HBox>
+            <VBox fx:id="chosenplant" layoutX="14.0" layoutY="87.0" prefHeight="461.0" prefWidth="393.0" spacing="5.0" style="-fx-background-color: #0D192B; -fx-background-radius: 10;">
+               <children>
+                  <Label fx:id="fruitname" prefHeight="38.0" prefWidth="322.0" style="-fx-background-color: #ffffff;">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="chplantname" fitHeight="238.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="chplantdesc" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="202.0" prefWidth="324.0" style="-fx-background-color: #ffffff; -fx-wrap-text: true;">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

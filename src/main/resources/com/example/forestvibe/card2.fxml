@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="leef" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="500.0" spacing="20.0" style="-fx-background-color: #0D191B;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.forestvibe.CardController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <ImageView fx:id="map" fitHeight="323.0" fitWidth="468.0" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <image>
+            <Image url="@forests/Badagamuwa Conservation Forest/tempsnip.png" />
+         </image></ImageView>
+      <ImageView fx:id="details" fitHeight="512.0" fitWidth="476.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@forests/Badagamuwa%20Conservation%20Forest/output-onlinepngtools.png" />
+         </image></ImageView>
+   </children>
+</VBox>

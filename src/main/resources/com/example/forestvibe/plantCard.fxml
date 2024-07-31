@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="plantcd" prefHeight="209.0" prefWidth="100.0" style="-fx-background-radius: 20;" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.forestvibe.PlantCard">
+   <children>
+      <ImageView fx:id="plantimg" fitHeight="209.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plants/webpc-passthru.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="plantname" prefHeight="54.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" text="    Jambu whotto">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>

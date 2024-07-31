@@ -1,0 +1,43 @@
+.menu1:hover{
+    -fx-border-color: #660099;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+.SplitMenuButtonStyleClass {
+    -fx-background-color: #181414;
+    -fx-text-fill: white;
+    -fx-background-radius: 0; /* Remove border radius */
+}
+.combo-box-base{
+    -fx-background-color: #252f31;
+    -fx-background-radius: none;
+    -fx-border-radius: none;
+
+}
+.search{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 100;
+}
+.transparent{
+    -fx-background-color:rgba(0,0,0,0);
+
+}
+.vbox_background_center{
+    -fx-background-image: url("img3.jpg");
+
+}
+.vbox_background_right{
+
+}
+
+.imglbl1{
+
+    -fx-border-width: 10px;
+    -fx-border-color: green;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-arc-width: 20px;
+    -fx-arc-height: 20px
+
+
+}
+
