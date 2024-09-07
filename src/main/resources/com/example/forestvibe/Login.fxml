@@ -40,16 +40,15 @@
                   <Insets left="75.0" />
                </padding>
                <children>
-                  <Button fx:id="login" mnemonicParsing="false" onAction="#adminlogin" prefWidth="100.0" style="-fx-background-radius: 30;" text="Button" />
+                  <Button fx:id="login" mnemonicParsing="false" onAction="#adminlogin" prefWidth="100.0" style="-fx-background-radius: 30;" text="Admin" />
                </children>
             </HBox>
-            <Label fx:id="txt" alignment="CENTER" prefHeight="18.0" prefWidth="250.0" text="USER" />
             <HBox prefHeight="36.0" prefWidth="250.0">
                <padding>
                   <Insets left="75.0" />
                </padding>
                <children>
-                  <Button fx:id="login1" mnemonicParsing="false" onAction="#login" prefWidth="100.0" style="-fx-background-radius: 30;" text="Button" />
+                  <Button fx:id="login1" mnemonicParsing="false" onAction="#login" prefWidth="100.0" style="-fx-background-radius: 30;" text="User" />
                </children>
             </HBox>
          </children>

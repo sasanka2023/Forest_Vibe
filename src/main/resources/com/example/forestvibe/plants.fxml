@@ -83,16 +83,6 @@
                   <Font name="Times New Roman" size="24.0" />
                </font>
             </Label>
-            <Label fx:id="l5" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="   Vegitables" textAlignment="CENTER">
-               <font>
-                  <Font name="Times New Roman" size="24.0" />
-               </font>
-            </Label>
-            <Label fx:id="l6" prefHeight="68.0" prefWidth="146.0" style="-fx-background-color: #fff122; -fx-background-radius: 25;" text="   Vegitables" textAlignment="CENTER">
-               <font>
-                  <Font name="Times New Roman" size="24.0" />
-               </font>
-            </Label>
          </children>
       </HBox>
       <ScrollPane fx:id="scroll" layoutX="200.0" layoutY="192.0" prefHeight="319.0" prefWidth="818.0" AnchorPane.bottomAnchor="238.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="193.0">

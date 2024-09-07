@@ -54,7 +54,8 @@ public class Third extends HelloApplication implements Initializable {
     String [] arr1 ={"forests/kanneliya/caption (1).jpg","forests/kanneliya/caption (2).jpg","forests/kanneliya/caption (3).jpg","forests/kanneliya/caption (4).jpg"};
     String [] arr2 = {"forests/sinharaja/image1.jpeg","forests/sinharaja/image2.jpg","forests/sinharaja/image3.jpeg","forests/sinharaja/image4.jpeg"};
     String [] arr3 = {"forests/Badagamuwa Conservation Forest/img1.jpg","forests/Badagamuwa Conservation Forest/img2.jpg"};
-    String [] arr4;
+    String [] arr4 = {"forests/Riverstone/river.jpg","forests/Riverstone/riverstone-excursion(1).jpg","forests/Riverstone/riverstone-excursion.jpg","forests/Riverstone/riverstone-gap(1).jpg","forests/Riverstone/riverstone-gap.jpg","forests/Riverstone/sera-ella.jpg"};
+    String [] arr5 = {};
     public void switchtoscene1(javafx.event.ActionEvent event) throws IOException {
         // Load the content of Secondpage.fxml
         Parent root = FXMLLoader.load(getClass().getResource("Firstpage.fxml"));
@@ -107,7 +108,8 @@ public class Third extends HelloApplication implements Initializable {
         ObservableList<String> items = FXCollections.observableArrayList(
                 "Sinharaja Forest",
                 "Badagamuwa Forest",
-                "Kanneliya Forest"
+                "Kanneliya Forest",
+                "Riverston"
         );
         combo.setItems(items);
         // Create a map to associate each forest name with its corresponding FXML file
@@ -115,7 +117,7 @@ public class Third extends HelloApplication implements Initializable {
         forestFXMLMap.put("Sinharaja Forest", "card.fxml");
         forestFXMLMap.put("Badagamuwa Forest", "card2.fxml");
         forestFXMLMap.put("Kanneliya Forest", "card3.fxml");
-
+        forestFXMLMap.put("Riverston", "card4.fxml");
         // Set up an event handler for the ComboBox
         combo.setOnAction(event -> {
             // Get the selected item
@@ -138,17 +140,22 @@ public class Third extends HelloApplication implements Initializable {
             if ("Kanneliya Forest".equals(selected)) {
                 Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream(arr1[0])));
                 gallery.setImage(img);
-                arr4 = arr1;
+                arr5 = arr1;
             }
             else if("Sinharaja Forest".equals(selected)){
                 Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream(arr2[0])));
                 gallery.setImage(img);
-                arr4 = arr2;
+                arr5 = arr2;
             }
             else if("Badagamuwa Forest".equals(selected)){
                 Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream(arr3[0])));
                 gallery.setImage(img);
-                arr4 = arr3;
+                arr5 = arr3;
+            }
+            else if("Riverston".equals(selected)){
+                Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream(arr4[0])));
+                gallery.setImage(img);
+                arr5 = arr4;
             }
         });
 
@@ -176,8 +183,8 @@ public class Third extends HelloApplication implements Initializable {
 
 
     public void next(ActionEvent actionEvent) {
-        if (imgIndex < arr4.length) {
-            Image image = new Image(Objects.requireNonNull(getClass().getResourceAsStream(arr4[imgIndex])));
+        if (imgIndex < arr5.length) {
+            Image image = new Image(Objects.requireNonNull(getClass().getResourceAsStream(arr5[imgIndex])));
             gallery.setImage(image);
             imgIndex++;
 
