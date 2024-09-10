@@ -7,6 +7,8 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -27,7 +29,9 @@ public class Secondpage extends HelloApplication implements Initializable {
     public Button btn4;
     @FXML
     public Button btn5;
-
+    private VBox box1;
+    @FXML
+    private Pane pane1;
     public void switchtoscene1(javafx.event.ActionEvent event) throws IOException {
         // Load the content of Secondpage.fxml
         Parent root = FXMLLoader.load(getClass().getResource("Firstpage.fxml"));
@@ -61,6 +65,12 @@ public class Secondpage extends HelloApplication implements Initializable {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+    }
+
+    public void lesson1() throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("lesson1.fxml"));
+        box1 = loader.load();
+        pane1.getChildren().add(box1);
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
