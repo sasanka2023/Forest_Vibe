@@ -46,7 +46,7 @@ public class HelloController implements Initializable {
                             borderPane = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Login.fxml")));
                             Stage stage = new Stage();
                             Scene scene = new Scene(borderPane);
-                            stage.setTitle("Helow");
+                            stage.setTitle("");
                             stage.setScene(scene);
                             //stage.setMinHeight(750);
                             //stage.setMinWidth(1250);
