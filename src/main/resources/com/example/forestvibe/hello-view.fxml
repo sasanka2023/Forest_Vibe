@@ -15,21 +15,26 @@
             <Image url="@img5.jpg" />
          </image>
       </ImageView>
-      <Pane focusTraversable="true" layoutX="543.0" opacity="0.53" prefHeight="368.0" prefWidth="276.0" style="-fx-background-color: grey;">
+      <Pane focusTraversable="true" layoutX="543.0" opacity="0.64" prefHeight="368.0" prefWidth="276.0" style="-fx-background-color: grey;">
          <effect>
             <BoxBlur height="52.66" width="40.74" />
          </effect>
       </Pane>
-      <Text fill="#15612c" fontSmoothingType="LCD" layoutX="562.0" layoutY="108.0" stroke="#736464" strokeType="OUTSIDE" strokeWidth="2.0" text="FOREST" translateY="62.0">
+      <Text fill="#346643" fontSmoothingType="LCD" layoutX="562.0" layoutY="134.0" stroke="#736464" strokeLineCap="ROUND" strokeType="OUTSIDE" text="FOREST" translateY="62.0">
          <font>
             <Font name="Arial Bold" size="59.0" />
          </font>
       </Text>
-      <Text fill="#91b403" fontSmoothingType="LCD" layoutX="606.0" layoutY="175.0" stroke="#9e7f7f" strokeType="OUTSIDE" strokeWidth="2.0" text="VIBE" translateX="7.0" translateY="62.0">
+      <Text fill="#91b403" fontSmoothingType="LCD" layoutX="606.0" layoutY="201.0" stroke="#998383" strokeLineCap="ROUND" strokeType="OUTSIDE" text="VIBE" translateX="7.0" translateY="62.0">
          <font>
             <Font name="Arial" size="59.0" />
          </font>
       </Text>
       <Text fill="WHITE" layoutX="-151.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;ForestVibe&quot; is an innovative project aimed at promoting environmental awareness and sustainable forestry practices. This interactive platform serves as a comprehensive guide and virtual exploration tool for forests worldwideand virtual exploration tool for forests." textAlignment="CENTER" translateX="165.0" wrappingWidth="523.2340087890625" />
+      <ImageView fitHeight="85.0" fitWidth="160.0" layoutX="600.0" layoutY="42.0">
+         <image>
+            <Image url="@Logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
