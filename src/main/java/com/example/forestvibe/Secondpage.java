@@ -70,6 +70,26 @@ public class Secondpage extends HelloApplication implements Initializable {
     public void lesson1() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("lesson1.fxml"));
         box1 = loader.load();
+        pane1.getChildren().clear();
+        pane1.getChildren().add(box1);
+    }
+    public void lesson2() throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("lesson2.fxml"));
+        box1 = loader.load();
+        pane1.getChildren().clear();
+        pane1.getChildren().add(box1);
+    }
+    public void lesson3() throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("lesson3.fxml"));
+        box1 = loader.load();
+        pane1.getChildren().clear();
+        pane1.getChildren().add(box1);
+    }
+    public void lesson4() throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("lesson4.fxml"));
+        box1 = loader.load();
+        pane1.getChildren().clear();
         pane1.getChildren().add(box1);
     }
     @Override

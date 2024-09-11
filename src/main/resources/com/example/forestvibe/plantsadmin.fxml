@@ -62,7 +62,7 @@
                </VBox.margin>
                <children>
                   <Button fx:id="add" mnemonicParsing="false" onAction="#Create" prefHeight="26.0" prefWidth="88.0" text="CREATE" />
-                  <Button fx:id="update" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" text="UPDATE" />
+                  <Button fx:id="update" mnemonicParsing="false" onAction="#update" prefHeight="26.0" prefWidth="99.0" text="UPDATE" />
                   <Button fx:id="delete" mnemonicParsing="false" onAction="#Delete" prefHeight="26.0" prefWidth="98.0" text="DELETE" />
                </children>
             </HBox>

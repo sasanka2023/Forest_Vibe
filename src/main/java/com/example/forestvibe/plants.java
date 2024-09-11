@@ -217,28 +217,28 @@ public class plants extends HelloApplication implements Initializable {
     private List<Plant> recentlyAdded2(){
         List<Plant> ls = new ArrayList<>();
         Plant plant = new Plant();
-        plant.setName("Mango");
-        plant.setImgsrc("plants/mango.png");
+        plant.setName("Delum");
+        plant.setImgsrc("plants/Fruits/Delum.jpg");
         ls.add(plant);
 
         plant = new Plant();
-        plant.setName("Mango");
-        plant.setImgsrc("plants/mango.png");
+        plant.setName("Nami Nam");
+        plant.setImgsrc("plants/Fruits/NamiNam.jpg");
         ls.add(plant);
 
         plant = new Plant();
-        plant.setName("Mango");
-        plant.setImgsrc("plants/mango.png");
+        plant.setName("Siyambala");
+        plant.setImgsrc("plants/Fruits/Siyambala.jpg");
         ls.add(plant);
 
         plant = new Plant();
-        plant.setName("Mango");
-        plant.setImgsrc("plants/mango.png");
+        plant.setName("Ukurassa");
+        plant.setImgsrc("plants/Fruits/Ukuressa.jpg");
         ls.add(plant);
 
         plant = new Plant();
-        plant.setName("Mango");
-        plant.setImgsrc("plants/mango.png");
+        plant.setName("Weralu");
+        plant.setImgsrc("plants/Fruits/Weralu.jpg");
         ls.add(plant);
 
 

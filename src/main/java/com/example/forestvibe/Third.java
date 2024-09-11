@@ -52,7 +52,7 @@ public class Third extends HelloApplication implements Initializable {
 
     private int imgIndex = 0;
     String [] arr1 ={"forests/kanneliya/caption (1).jpg","forests/kanneliya/caption (2).jpg","forests/kanneliya/caption (3).jpg","forests/kanneliya/caption (4).jpg"};
-    String [] arr2 = {"forests/sinharaja/image1.jpeg","forests/sinharaja/image2.jpg","forests/sinharaja/image3.jpeg","forests/sinharaja/image4.jpeg"};
+    String [] arr2 = {"forests/sinharaja/image1.jpeg","forests/sinharaja/image2.jpg","forests/sinharaja/image3.jpeg","forests/sinharaja/image4.jpeg","forests/sinharaja/1.jpeg","forests/sinharaja/2.jpeg","forests/sinharaja/3.jpeg","forests/sinharaja/4.jpeg","forests/sinharaja/5.jpeg"};
     String [] arr3 = {"forests/Badagamuwa Conservation Forest/img1.jpg","forests/Badagamuwa Conservation Forest/img2.jpg"};
     String [] arr4 = {"forests/Riverstone/river.jpg","forests/Riverstone/riverstone-excursion(1).jpg","forests/Riverstone/riverstone-excursion.jpg","forests/Riverstone/riverstone-gap(1).jpg","forests/Riverstone/riverstone-gap.jpg","forests/Riverstone/sera-ella.jpg"};
     String [] arr5 = {};
