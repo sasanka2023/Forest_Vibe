@@ -61,7 +61,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="134.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="134.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 1" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -80,10 +80,10 @@
          </effect></Label>
       <ScrollPane layoutX="549.0" layoutY="94.0" prefHeight="656.0" prefWidth="701.0">
          <content>
-            <Pane fx:id="pane1" prefHeight="800.0" prefWidth="701.0" />
+            <Pane fx:id="pane1" prefHeight="1500.0" prefWidth="701.0" />
          </content>
       </ScrollPane>
-      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="134.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="134.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 2" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -101,7 +101,7 @@
             </Lighting>
          </effect>
       </Label>
-      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="291.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="291.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 3" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -119,7 +119,7 @@
             </Lighting>
          </effect>
       </Label>
-      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="291.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="291.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 4" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -137,7 +137,7 @@
             </Lighting>
          </effect>
       </Label>
-      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="447.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="447.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 5" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -155,7 +155,7 @@
             </Lighting>
          </effect>
       </Label>
-      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="447.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="447.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 6" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -173,7 +173,7 @@
             </Lighting>
          </effect>
       </Label>
-      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="598.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="33.0" layoutY="598.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 7" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>
@@ -191,7 +191,7 @@
             </Lighting>
          </effect>
       </Label>
-      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="598.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Life Cycle" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
+      <Label contentDisplay="CENTER" layoutX="288.0" layoutY="598.0" onMouseClicked="#lesson1" opacity="0.88" prefHeight="112.0" prefWidth="219.0" style="-fx-background-color: green; -fx-background-radius: 20px;" text="    Lession 8" textAlignment="CENTER" textFill="#defc7b" wrapText="true">
          <font>
             <Font name="System Bold" size="32.0" />
          </font>

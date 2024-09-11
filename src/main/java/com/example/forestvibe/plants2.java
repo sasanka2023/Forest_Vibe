@@ -235,9 +235,28 @@ public class plants2 extends HelloApplication implements Initializable {
 
         }
 
-    public void update(){
-        
+    public void update() {
+        Database connection = new Database();
+        Connection con = connection.getConnection();
+
+        String tablename = name.getText();
+        String prop = properties.getText();
+        String val = value.getText();
+
+        String updatequery = "UPDATE "+tablename+" SET details = ? WHERE property = ?";
+
+        try{
+            PreparedStatement preparedStatement = con.prepareStatement(updatequery);
+            preparedStatement.setString(1,val);
+            preparedStatement.setString(2,prop);
+            preparedStatement.executeUpdate();
+
+            con.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
+
     public void search(){
         Database connection = new Database();
         Connection con = connection.getConnection();
