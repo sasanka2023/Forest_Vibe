@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.BoxBlur?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane id="pane" fx:id="apane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="815.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.forestvibe.HelloController">
    <children>
-      <ImageView fitHeight="368.0" fitWidth="542.0">
+      <ImageView fitHeight="368.0" fitWidth="554.0">
          <image>
             <Image url="@img5.jpg" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e4a56" height="368.0" layoutX="542.0" stroke="#3e4a56" strokeType="INSIDE" width="274.0" />
-      <Text fill="#14dc53" layoutX="569.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOREST">
+      <Pane focusTraversable="true" layoutX="543.0" opacity="0.53" prefHeight="368.0" prefWidth="276.0" style="-fx-background-color: grey;">
+         <effect>
+            <BoxBlur height="52.66" width="40.74" />
+         </effect>
+      </Pane>
+      <Text fill="#15612c" fontSmoothingType="LCD" layoutX="562.0" layoutY="108.0" stroke="#736464" strokeType="OUTSIDE" strokeWidth="2.0" text="FOREST" translateY="62.0">
          <font>
-            <Font name="Times New Roman" size="59.0" />
+            <Font name="Arial Bold" size="59.0" />
          </font>
       </Text>
-      <Text fill="#c8db16" layoutX="595.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLOW">
+      <Text fill="#91b403" fontSmoothingType="LCD" layoutX="606.0" layoutY="175.0" stroke="#9e7f7f" strokeType="OUTSIDE" strokeWidth="2.0" text="VIBE" translateX="7.0" translateY="62.0">
          <font>
-            <Font name="Times New Roman" size="59.0" />
+            <Font name="Arial" size="59.0" />
          </font>
       </Text>
-      <Text fill="#0b0a0a" layoutX="8.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Forest Explorer&quot; is an innovative project aimed at promoting environmental awareness and" />
-      <Text fill="#0b0a0a" layoutX="8.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sustainable forestry practices. This interactive platform serves as a comprehensive guide" />
-      <Text fill="#0b0a0a" layoutX="18.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and virtual exploration tool for forests worldwideand virtual exploration tool for forests worldwide" />
+      <Text fill="WHITE" layoutX="-151.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;ForestVibe&quot; is an innovative project aimed at promoting environmental awareness and sustainable forestry practices. This interactive platform serves as a comprehensive guide and virtual exploration tool for forests worldwideand virtual exploration tool for forests." textAlignment="CENTER" translateX="165.0" wrappingWidth="523.2340087890625" />
    </children>
 </AnchorPane>
