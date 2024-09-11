@@ -9,6 +9,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 
 import java.io.IOException;
 import java.sql.*;
@@ -66,6 +68,12 @@ public class Login {
          } catch (SQLException | IOException e) {
             e.printStackTrace(); // Handle the exception appropriately
          }
+      }else{
+         Alert alert = new Alert(AlertType.ERROR);
+         alert.setTitle("Error");
+         alert.setHeaderText(null);
+         alert.setContentText("Please fill all the fields.");
+         alert.showAndWait();
       }
    }
    public void switchToScene5() throws IOException{
