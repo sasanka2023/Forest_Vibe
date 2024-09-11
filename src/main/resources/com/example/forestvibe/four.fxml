@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
@@ -20,43 +21,50 @@
             <Image url="@forests/f1.jpg" />
          </image>
       </ImageView>
-      <Pane opacity="0.73" prefHeight="93.0" prefWidth="1250.0" style="-fx-background-color: #164B60; -fx-border-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <ImageView fitHeight="68.0" fitWidth="68.0" layoutX="35.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@peacock2.png" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
+      <Pane opacity="0.73" prefHeight="93.0" prefWidth="1250.0" style="-fx-background-color: #164B60; -fx-border-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <Button fx:id="btn" layoutX="575.2" layoutY="31.2" mnemonicParsing="false" onAction="#switchtoscene1" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="HOME" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="575.0" AnchorPane.topAnchor="31.0">
          <font>
             <Font name="Poppins Bold" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <Button fx:id="btn2" mnemonicParsing="false" onAction="#switchtoscene2" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18; -fx-border-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="ABOUT" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="31.0">
          <font>
             <Font name="Poppins Bold" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <Button fx:id="btn3" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchtoscene3" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18px;" styleClass="menu1" stylesheets="@Style.css" text="FORESTS" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="825.0" AnchorPane.topAnchor="31.0">
          <font>
             <Font name="Poppins Bold" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <Button fx:id="btn4" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchtoscene5" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="Plants" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="950.0" AnchorPane.topAnchor="31.0">
+      <Button fx:id="btn4" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchtoscene5" opacity="0.87" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="PLANTS" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="950.0" AnchorPane.topAnchor="31.0">
          <font>
             <Font name="Poppins Bold" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <Button fx:id="btn5" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" opacity="0.87" prefHeight="39.0" prefWidth="156.0" style="-fx-background-color: transparent; -fx-background-radius: 18;" styleClass="menu1" stylesheets="@Style.css" text="CONSERVATION" textAlignment="CENTER" textFill="#e1dada" AnchorPane.leftAnchor="1050.0">
          <font>
             <Font name="Poppins Bold" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
-      <Line endX="-30.666664123535156" layoutX="183.0" layoutY="149.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
-      <Line endX="-30.666664123535156" layoutX="110.0" layoutY="213.0" startX="-30.666671752929688" startY="-63.40000915527344" stroke="WHITE" strokeWidth="3.0" />
-      <Text fill="WHITE" layoutX="82.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Together">
+      <Line endX="-30.666664123535156" layoutX="127.0" layoutY="182.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-30.666664123535156" layoutX="58.0" layoutY="246.0" startX="-30.666671752929688" startY="-63.40000915527344" stroke="WHITE" strokeWidth="3.0" />
+      <Text fill="WHITE" layoutX="55.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Together">
          <font>
             <Font size="45.0" />
          </font>
@@ -64,7 +72,7 @@
             <DropShadow />
          </effect>
       </Text>
-      <Text fill="WHITE" layoutX="69.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let's Protect">
+      <Text fill="WHITE" layoutX="50.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Let's Protect">
          <font>
             <Font name="System Bold" size="55.0" />
          </font>
@@ -72,7 +80,7 @@
             <DropShadow />
          </effect>
       </Text>
-      <Text fill="#84f472" layoutX="69.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Home">
+      <Text fill="#84f472" layoutX="47.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our Home">
          <font>
             <Font name="System Bold" size="59.0" />
          </font>
@@ -80,34 +88,41 @@
             <DropShadow />
          </effect>
       </Text>
-      <Line endX="-24.883342742919922" layoutX="422.0" layoutY="373.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
-      <Line endX="-100.0" endY="-81.80001831054688" layoutX="498.0" layoutY="370.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
-      <Label fx:id="plantation" alignment="CENTER" contentDisplay="CENTER" layoutX="419.0" layoutY="102.0" onMouseClicked="#plant" opacity="0.53" prefHeight="219.0" prefWidth="242.0" style="-fx-background-color: cyan; -fx-background-radius: 20;">
+      <Label fx:id="plantation" alignment="CENTER" contentDisplay="CENTER" layoutX="419.0" layoutY="102.0" onMouseClicked="#plant" opacity="0.49" prefHeight="219.0" prefWidth="242.0" style="-fx-background-color: cyan; -fx-background-radius: 20;" textOverrun="CLIP">
          <effect>
-            <DropShadow />
-         </effect></Label>
-      <TextField layoutX="454.0" layoutY="102.0" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: transparent;" text="Plant Trees">
-         <font>
-            <Font name="Times New Roman" size="29.0" />
-         </font></TextField>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="421.0" layoutY="325.0" opacity="0.53" prefHeight="206.0" prefWidth="242.0" style="-fx-background-color: yellow; -fx-background-radius: 20;">
-         <effect>
-            <DropShadow />
+            <DropShadow height="170.0" radius="84.5" spread="0.5" width="170.0" />
          </effect>
-      </Label>
-      <TextField layoutX="435.0" layoutY="297.0" prefHeight="122.0" prefWidth="241.0" style="-fx-background-color: transparent;" text="Clean up Events">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Label>
+      <TextField editable="false" layoutX="454.0" layoutY="179.0" prefHeight="60.0" prefWidth="189.0" style="-fx-background-color: transparent;" text="Plant Trees">
          <font>
-            <Font name="Times New Roman" size="29.0" />
+            <Font name="Arial Bold" size="29.0" />
+         </font></TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="421.0" layoutY="325.0" opacity="0.49" prefHeight="206.0" prefWidth="242.0" style="-fx-background-color: yellow; -fx-background-radius: 20;">
+         <effect>
+            <DropShadow height="170.0" radius="84.5" spread="0.5" width="170.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="412.0" layoutY="394.0" prefHeight="68.0" prefWidth="263.0" style="-fx-background-color: transparent;" text="Clean up Events">
+         <font>
+            <Font name="Arial Bold" size="29.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="536.0" opacity="0.53" prefHeight="206.0" prefWidth="249.0" style="-fx-background-color: pink; -fx-background-radius: 20;">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="536.0" opacity="0.49" prefHeight="206.0" prefWidth="249.0" style="-fx-background-color: pink; -fx-background-radius: 20;">
          <effect>
-            <DropShadow />
+            <DropShadow height="170.0" radius="84.5" spread="0.5" width="170.0" />
          </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Label>
-      <TextField layoutX="454.0" layoutY="544.0" prefHeight="60.0" prefWidth="180.0" style="-fx-background-color: transparent;" text="Plant Trees">
+      <TextField editable="false" layoutX="445.0" layoutY="611.0" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: transparent;" text="Plant Trees">
          <font>
-            <Font name="Times New Roman" size="29.0" />
+            <Font name="Arial Bold" size="29.0" />
          </font>
       </TextField>
       <ScrollPane fx:id="scroll" layoutX="790.0" layoutY="94.0" prefHeight="656.0" prefWidth="579.0" AnchorPane.rightAnchor="0.0">
@@ -116,5 +131,12 @@
          </content>
       </ScrollPane>
       <Pane layoutX="54.0" layoutY="388.0" prefHeight="354.0" prefWidth="346.0" />
+      <Line endX="-30.666664123535156" layoutX="418.0" layoutY="384.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-30.666664123535156" layoutX="418.0" layoutY="384.0" startX="-30.666671752929688" startY="-63.40000915527344" stroke="WHITE" strokeWidth="3.0" />
+      <ImageView fitHeight="85.0" fitWidth="160.0" layoutX="2.0" layoutY="6.0">
+         <image>
+            <Image url="@Logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
